@@ -24,7 +24,7 @@ public:
         return length * width;
     }
 
-    // Вычисление длины диагонали
+    // Вычиcление длины диагонали
     double getDiagonal() {
         return sqrt(length * length + width * width);
     }
